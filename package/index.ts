@@ -33,6 +33,8 @@ async function cmd() {
   program.name('snyth').description('CLI to manage Snyth UI components').version('1.0.0');
 
   program.addCommand(initCommand);
+
+  await program.parseAsync(process.argv);
 }
 
 starter();
