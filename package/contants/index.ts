@@ -1,3 +1,5 @@
+export const version = '1.0.2';
+
 export const Colors = {
   background: '#1C1C1C',
   primary: '#D48466',

@@ -1,6 +1,6 @@
 {
     "name": "snyth-cli",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "React native ui library cli",
     "license": "ISC",
     "author": "kunal",
@@ -8,6 +8,10 @@
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
+    "homepage": "https://snyth.iamkunal.in/docs/cli",
+    "repository": {
+        "url": "git+https://github.com/mainkunalhu/snyth-cli"
+    },
     "scripts": {
         "build": "tsup",
         "dev": "tsup --watch",
