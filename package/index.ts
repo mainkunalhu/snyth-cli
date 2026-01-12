@@ -6,6 +6,9 @@ import boxen from 'boxen';
 import { Colors } from './contants';
 import { Command } from 'commander';
 import { initCommand } from './commands';
+import { addCommand } from './commands/add';
+import { listCommand } from './commands/list';
+import { removeCommand } from './commands/remove';
 
 function starter() {
   const title = figlet.textSync('SNYTH', {
@@ -33,6 +36,9 @@ async function cmd() {
   program.name('snyth').description('CLI to manage Snyth UI components').version('1.0.0');
 
   program.addCommand(initCommand);
+  program.addCommand(addCommand);
+  program.addCommand(listCommand);
+  program.addCommand(removeCommand);
 
   await program.parseAsync(process.argv);
 }

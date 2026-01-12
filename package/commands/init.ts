@@ -13,6 +13,7 @@ export const initCommand = new Command('init')
           p.select({
             message: 'Select your project type:',
             options: [
+              { value: 'react', label: 'React', hint: 'Recommended for Website' },
               { value: 'expo', label: 'Expo', hint: 'Recommended for Mobile' },
               { value: 'rn', label: 'Bare React Native' },
             ],
