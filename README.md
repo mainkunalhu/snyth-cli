@@ -2,4 +2,4 @@
 
 CLI to manage Snyth UI components.
 
-For full documentation, check out: https://snyth.dev/docs
+For full documentation, check out: https://snyth.iamkunal.in/docs/cli
